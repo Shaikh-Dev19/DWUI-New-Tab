@@ -43,7 +43,7 @@ We welcome contributions! 🎉 Feel free to **fork** this repo, submit **pull re
 📌 **Follow for Updates:**  
 👉 **GitHub:** https://github.com/Shaikh-Dev19
 👉 **Twitter / X :** https://x.com/Shaikh_Dev19
-
+👉 **Instagram :** https://www.instagram.com/_.u_.m_.a_.r_/
 ---  
 
 **#DWUI #NewTab #ChromeExtension #DarkUI #Productivity #WebDesign #Customizable #OpenSource** 🚀
