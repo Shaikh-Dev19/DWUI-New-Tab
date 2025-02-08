@@ -22,7 +22,7 @@
 
 1. **Download .zip (File):**  
    ```bash
-   https://drive.google.com/file/d/1Vy64jZTrRZb6uTs_l00JF2TH6jhh3y-p/view
+   https://github.com/Shaikh-Dev19/DWUI-New-Tab/archive/refs/heads/main.zip
    ```  
 2. **Open Chrome** and go to:  
    ```
