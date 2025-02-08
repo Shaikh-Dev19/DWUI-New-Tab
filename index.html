@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="clock" class="fade-in"></div>
+        <div id="date" class="fade-in"></div>
+
+        <div class="search-container fade-in">
+            <input type="text" id="search-input" placeholder="Search the web..." autofocus>
+        </div>
+
+        <div class="shortcuts-section fade-in">
+            <div class="shortcuts-header">
+                <h2>Quick Access</h2>
+                <!-- <button class="btn-primary" onclick="showAddShortcutModal()">Add Shortcut</button> -->
+                <button id="addShortcutBtn" class="btn-primary">Add Shortcut</button>
+            </div>
+            <div class="shortcut-grid" id="shortcuts"></div>
+        </div>
+
+    </div>
+
+    <div class="modal" id="addShortcutModal">
+        <h2>Add New Shortcut</h2>
+        <div class="form-group">
+            <label for="shortcutName">Name</label>
+            <input type="text" id="shortcutName" placeholder="e.g., GitHub">
+        </div>
+        <div class="form-group">
+            <label for="shortcutUrl">URL</label>
+            <input type="url" id="shortcutUrl" placeholder="e.g., https://github.com">
+        </div>
+        <div class="modal-actions">
+            <!-- <button class="btn-primary" onclick="hideAddShortcutModal()">Cancel</button>
+            <button class="btn-primary" onclick="addShortcut()">Add Shortcut</button> -->
+            <button id="cancelBtn" class="btn-primary">Cancel</button>
+            <!-- <button id="addShortcutBtn" class="btn-primary">Add Shortcut</button> -->
+            <button id="confirmAddShortcutBtn" class="btn-primary">Add Shortcut</button>
+        </div>
+    </div>
+
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
