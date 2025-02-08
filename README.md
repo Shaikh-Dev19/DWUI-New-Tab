@@ -20,10 +20,10 @@
 
 ## 📥 **Installation Guide**  
 
-1. **Download .zip (File):**  
+1. **Download .zip (File) & Extract:**  
    ```bash
    https://github.com/Shaikh-Dev19/DWUI-New-Tab/archive/refs/heads/main.zip
-   ```  
+   ```
 2. **Open Chrome** and go to:  
    ```
    chrome://extensions/
