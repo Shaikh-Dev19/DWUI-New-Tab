@@ -181,11 +181,6 @@ body::before {
     margin-bottom: 0.25rem;
 }
 
-.shortcut-url {
-    color: #94a3b8;
-    font-size: 0.875rem;
-}
-
 .shortcut-actions {
     opacity: 0;
     transition: opacity 0.2s ease;
