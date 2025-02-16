@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: none;
 }
 
 /* For Webkit Browsers (Chrome, Edge, Safari) */
@@ -11,14 +12,10 @@
     display: none;
 }
 
-/* For Firefox */
-* {
-    scrollbar-width: none;
-}
-
 /* For IE and Edge */
 body {
-    -ms-overflow-style: none; /* Hide scrollbar */
+    -ms-overflow-style: none;
+    /* Hide scrollbar */
 }
 
 
@@ -62,9 +59,10 @@ body::before {
 
 #clock {
     font-size: 6rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
-    letter-spacing: -2px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
     color: #ffffff;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -72,7 +70,7 @@ body::before {
 #date {
     font-size: 1.25rem;
     font-weight: 400;
-    color: #94a3b8;
+    color: #cfbcbc;
     margin-top: -1rem;
 }
 
@@ -89,7 +87,7 @@ body::before {
     font-size: 1.1rem;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
+    border-radius: 15px;
     color: #ffffff;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
@@ -117,7 +115,7 @@ body::before {
 .btn-primary {
     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     color: #ffffff;
     font-weight: 500;
@@ -132,15 +130,16 @@ body::before {
 }
 
 /* .shortcut-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
-    width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+gap: 1rem;
+width: 100%;
 } */
 
 .shortcut-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted min width to fit more */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Adjusted min width to fit more */
     gap: 1rem;
     width: 100%;
 }
@@ -148,7 +147,7 @@ body::before {
 
 .shortcut {
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: 15px;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -167,7 +166,7 @@ body::before {
 .shortcut-icon {
     width: 32px;
     height: 32px;
-    border-radius: 8px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -209,13 +208,18 @@ body::before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(30, 41, 59, 0.95);
+    background: rgba(30, 41, 59, 0.3);
+    /* More transparent */
     padding: 2rem;
-    border-radius: 16px;
+    border-radius: 30px;
     width: 90%;
     max-width: 500px;
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    /* Stronger blur effect */
+    -webkit-backdrop-filter: blur(30px);
+    /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    /* Softer border */
     display: none;
     z-index: 1000;
 }
@@ -231,11 +235,16 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.2);
+    /* Lighter backdrop */
+    backdrop-filter: blur(10px);
+    /* Stronger blur on backdrop */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
     display: none;
     z-index: 999;
 }
+
 
 .form-group {
     margin-bottom: 1rem;
@@ -252,7 +261,7 @@ body::before {
     padding: 0.75rem 1rem;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
+    border-radius: 15px;
     color: #ffffff;
     font-size: 1rem;
 }
@@ -265,8 +274,15 @@ body::before {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .fade-in {
