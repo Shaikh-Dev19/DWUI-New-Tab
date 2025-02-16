@@ -154,7 +154,6 @@ function randomClockFont() {
     elements.forEach(el => {
         if (el) {
             el.style.fontFamily = selectedFont.fontFamily;
-            el.style.fontWeight = fontWeight;
         }
     });
 }
