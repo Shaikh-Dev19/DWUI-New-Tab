@@ -21,16 +21,18 @@
 ## 📥 Installation Guide  
 
 1. **Download & Extract the Extension:**  
-   [Download Here](https://github.com/Shaikh-Dev19/DWUI-New-Tab/archive/refs/heads/main.zip)  
+   [Download Here](https://github.com/Shaikh-Dev19/DWUI-New-Tab/archive/refs/heads/main.zip) (Chrome, FireFox, Brave , etc..)
+   
+   For [Edge Browser](https://microsoftedge.microsoft.com/addons/detail/dwui-new-tab/jcacblflhnmnemdpgkcokomcijnfojop)
 
-2. **Open Chrome and Navigate to Extensions:**  
+3. **Open Chrome and Navigate to Extensions:**  
    ```
    chrome://extensions/
    ```  
 
-3. **Enable Developer Mode** (top-right corner).  
-4. Click **Load Unpacked** and select the **'Test'** folder.  
-5. **Enjoy your new tab experience with DWUI! 🚀**  
+4. **Enable Developer Mode** (top-right corner).  
+5. Click **Load Unpacked** and select the **'Test'** folder.  
+6. **Enjoy your new tab experience with DWUI! 🚀**  
 
 ---  
 
