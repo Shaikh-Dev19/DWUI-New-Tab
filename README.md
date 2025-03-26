@@ -24,10 +24,6 @@
    - For Chrome Coming Soon.
 ---  
 
-## 💡 Contributing  
-
-We welcome contributions! 🎉 Feel free to **fork** this repo, submit **pull requests**, or report **issues**. Let’s create the ultimate **new tab experience together!** 🤝  
-
 🔗 **Live Demo & More Info:** [YouTube](https://www.youtube.com/@shaikh-dev-19)  
 
 📌 **Follow for Updates:**  
