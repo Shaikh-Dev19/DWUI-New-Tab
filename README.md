@@ -20,8 +20,8 @@
 
 ## 📥 Installation Guide  
 
+   - For [Chrome Browser](https://chromewebstore.google.com/detail/dwui-new-tab/nplglanjndleoadfkkaapdcbhkipbllf)
    - For [Edge Browser](https://microsoftedge.microsoft.com/addons/detail/dwui-new-tab/jcacblflhnmnemdpgkcokomcijnfojop)
-   - For Chrome Coming Soon.
 ---  
 
 🔗 **Live Demo & More Info:** [YouTube](https://www.youtube.com/@shaikh-dev-19)  
